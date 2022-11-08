@@ -1,0 +1,31 @@
+.contenedorInicio{
+    background-color:deepskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.contenedorParrafo {
+   margin-top: 20px;
+   width: 50%;
+   
+   
+}
+
+.tituloInicio {
+    text-align: center;
+    font-size: large;
+    font-style:oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color:darkblue;
+}
+
+.parrafoInicio {
+    text-align: justify;
+    margin: 30px;
+    font-size: large;
+    color:darkblue;
+
+}
+
