@@ -10,6 +10,7 @@ import NavBarRestaurant from './layouts/Navbar';
 
 
 
+
 function App() {
  return (
   <div className='App'>
@@ -26,6 +27,7 @@ function App() {
     </Route>
    </Routes>
    </BrowserRouter>
+   
    </div>
  )
     
