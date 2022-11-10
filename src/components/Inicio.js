@@ -2,13 +2,15 @@ import React from "react";
 import "./Inicio.css";
 
 
+
 const Inicio = () =>{
     return (
-        <section className="contenedorInicio">
+        <div className="contenedor">
+        <main className="d-flex flex-row justify-content-around contenedorInicio">
             <div className="imagenInicio">
-                <img src='{imgPortada}'/> 
+                <img src='./imagenrestaurant.jpg'/> 
             </div>
-            <div className="contenedorParrafo">
+            <div className="mt-5 ms-5 me-5 contenedorParrafo">
                 <div className="tituloInicio">
                  <h1>PUERTO SIRENA RESTAURANT</h1>
                 </div>  
@@ -20,8 +22,14 @@ const Inicio = () =>{
                      tierra para entregarles una experiencia gastronomica de primer nivel.</p>
                 </div>  
             </div>  
+        </main>
+        <section className="d-flex flex-row">
+        <img className="col-4 col-md-4" src='./machas-parmesana.jpg'/> 
+        <img className="col-4 col-md-4" src='./ceviche.jpg'/>
+        <img className="col-4 col-md-4" src='./paila-marina.jpg'/>
         </section>
-     
+        </div>
+       
     )
 }
 

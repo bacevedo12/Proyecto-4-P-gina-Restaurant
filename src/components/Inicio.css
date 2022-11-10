@@ -1,15 +1,9 @@
-.contenedorInicio{
-    background-color:deepskyblue;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+.contenedorInicio {
+    background-color:black;
 }
-
 .contenedorParrafo {
-   margin-top: 20px;
-   width: 50%;
-   
-   
+   /* width: 50%; */
+      
 }
 
 .tituloInicio {
@@ -18,14 +12,35 @@
     font-style:oblique;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color:darkblue;
+    color:aliceblue
 }
 
 .parrafoInicio {
     text-align: justify;
     margin: 30px;
     font-size: large;
-    color:darkblue;
+    color:aliceblue;
+
+}
+footer {
+    background-color: black;
+}
+.contenedorFooter {
+    background-color:black;
+    height: 25%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 
+.parrafoFooter {
+    color: cadetblue;
+}
+
+
+@media screen and (max-width:600px){
+    .contenedorInicio {
+        display: flex;
+        flex-direction: column;
+    }
+}
