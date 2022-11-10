@@ -8,7 +8,7 @@ const Inicio = () =>{
         <div className="contenedor">
         <main className="d-flex flex-row justify-content-around contenedorInicio">
             <div className="imagenInicio">
-                <img src='./imagenrestaurant.jpg'/> 
+                <img src='./images/imagenrestaurant.jpg'/> 
             </div>
             <div className="mt-5 ms-5 me-5 contenedorParrafo">
                 <div className="tituloInicio">
@@ -24,9 +24,9 @@ const Inicio = () =>{
             </div>  
         </main>
         <section className="d-flex flex-row">
-        <img className="col-4 col-md-4" src='./machas-parmesana.jpg'/> 
-        <img className="col-4 col-md-4" src='./ceviche.jpg'/>
-        <img className="col-4 col-md-4" src='./paila-marina.jpg'/>
+        <img className="col-4 col-md-4" src='./images/machas-parmesana.jpg'/> 
+        <img className="col-4 col-md-4" src='./images/ceviche.jpg'/>
+        <img className="col-4 col-md-4" src='./images/paila-marina.jpg'/>
         </section>
         </div>
        
