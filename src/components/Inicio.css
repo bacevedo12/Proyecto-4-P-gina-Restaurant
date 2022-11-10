@@ -1,15 +1,9 @@
-.contenedorInicio{
-    background-color:deepskyblue;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
+.contenedorInicio {
+    background-color:cornflowerblue;
 }
-
 .contenedorParrafo {
-   margin-top: 20px;
    width: 50%;
-   
-   
+      
 }
 
 .tituloInicio {
@@ -28,4 +22,17 @@
     color:darkblue;
 
 }
+
+.contenedorFooter {
+    background-color:black;
+    height: 25%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.parrafoFooter {
+    color: cadetblue;
+}
+
 

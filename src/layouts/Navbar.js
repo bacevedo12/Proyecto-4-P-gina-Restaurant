@@ -3,14 +3,13 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Outlet, Link } from 'react-router-dom';
 
 
-
 const NavBarRestaurant = () => {
   return (
-    <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+    <div>
+      <Navbar className="navBar" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand as={Link} to="/" >
-             <img src="./img/logo-restaurant.jpg"/>
+             <img src='./logo-restaurant.jpg' className="imagenLogo"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -27,7 +26,7 @@ const NavBarRestaurant = () => {
       <section>
         <Outlet></Outlet>
       </section>
-    </>
+    </div>
   );
 }
 
