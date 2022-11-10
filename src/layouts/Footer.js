@@ -8,7 +8,7 @@ const FooterRestaurant = () => {
                 <nav className='row'>  
                   <div className="d-flex flex-row justify-content-around contenedorFooter">
                     <div>
-                        <img src='./logo-restaurant.jpg' className="imagenLogo" />
+                        <img src='./images/logo-restaurant.jpg' className="imagenLogo" />
                     </div>
                     <div >
                         <h3>Dirección</h3>
