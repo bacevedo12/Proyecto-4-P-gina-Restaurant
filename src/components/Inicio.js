@@ -23,25 +23,13 @@ const Inicio = () =>{
                 </div>  
             </div>  
         </main>
-        <footer className="parrafoFooter">
-           <div className="d-flex flex-row justify-content-around contenedorFooter">
-           <div>
-                <img src='./logo-restaurant.jpg' className="imagenLogo" />
-            </div>
-            <div >
-                <h3>Dirección</h3>
-                <p>Av.Costanera 4358, Tomé </p>
-                <button className="btnicono me-4"><i class="fa-brands fa-square-instagram"></i></button>
-                <button className="btnicono"><i class="fa-brands fa-facebook"></i></button>
-            </div>
-            <div>
-                <h3>Contacto</h3>
-                <p>Telefono: 41-35467498 - 9-82386395</p>
-                <p>puerto_sirena@gmail.com</p>
-            </div>
-           </div> 
-        </footer>
+        <section className="d-flex flex-row">
+        <img className="col-4 col-md-4" src='./machas-parmesana.jpg'/> 
+        <img className="col-4 col-md-4" src='./ceviche.jpg'/>
+        <img className="col-4 col-md-4" src='./paila-marina.jpg'/>
+        </section>
         </div>
+       
     )
 }
 

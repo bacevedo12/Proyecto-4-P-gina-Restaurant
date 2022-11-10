@@ -11,7 +11,7 @@ const NavBarRestaurant = () => {
     <>
     <div className="contenedor">
     
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar className="navBar" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand as={Link} to="/" >
              <img src='./logo-restaurant.jpg' className="imagenLogo"/>
