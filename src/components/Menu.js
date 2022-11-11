@@ -1,21 +1,21 @@
 
 import menu from './data.js'
 import Platos from "./Platos.js";
-
+import '../App.css';
 
 
 const Menu= () =>{
     return (
-    <div>
-        <h1>Menu</h1>
-        <div className='container d-flex justify-content-center'>
-            <div className='row justify-content-center'>
+    <div className='menu'>
+        <h1 className='menus'>Menu</h1>
+        <div className='d-flex justify-content-center'>
+            
             <Platos  items={menu}/>
 
             </div>
          </div>
            
-    </div>
+    
     )
 }
 

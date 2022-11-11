@@ -2,8 +2,9 @@
     background-color:black;
 }
 .contenedorParrafo {
-   /* width: 50%; */
-      
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
+    
 }
 
 .tituloInicio {
