@@ -1,6 +1,7 @@
 .contenedorInicio {
     background-color:black;
 }
+
 .contenedorParrafo {
     font-family: 'Dancing Script', cursive;
     font-size: medium;
@@ -21,16 +22,20 @@
     margin: 30px;
     font-size: large;
     color:aliceblue;
-
 }
+
+.seccionCarousel {
+    background-color: black;
+}
+
 footer {
     background-color: black;
 }
 .contenedorFooter {
     background-color:black;
     height: 25%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
 
 }
 
@@ -41,7 +46,6 @@ footer {
 
 @media screen and (max-width:600px){
     .contenedorInicio {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 }

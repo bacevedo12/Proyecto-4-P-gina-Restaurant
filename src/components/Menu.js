@@ -1,7 +1,9 @@
 
 import menu from './data.js'
+
 import Platos from "./Platos.js";
 import '../App.css';
+
 
 
 const Menu= () =>{
