@@ -6,11 +6,11 @@ import "./Inicio.css";
 const Inicio = () =>{
     return (
         <div className="contenedor">
-        <main className="d-flex flex-row justify-content-around contenedorInicio">
-            <div className="imagenInicio">
-                <img src='./imagenrestaurant.jpg'/> 
+        <main className="row align-items-center contenedorInicio">
+            <div className="col-xs-12 col-lg-6 mb-4 imagenInicio">
+                <img src='./imagenrestaurant.jpg' style={{ width: '500px' }} /> 
             </div>
-            <div className="mt-5 ms-5 me-5 contenedorParrafo">
+            <div className="col-xs-12 col-lg-6 contenedorParrafo">
                 <div className="tituloInicio">
                  <h1>PUERTO SIRENA RESTAURANT</h1>
                 </div>  

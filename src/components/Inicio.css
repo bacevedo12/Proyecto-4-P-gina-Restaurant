@@ -1,10 +1,6 @@
 .contenedorInicio {
     background-color:black;
 }
-.contenedorParrafo {
-   /* width: 50%; */
-      
-}
 
 .tituloInicio {
     text-align: center;
@@ -28,8 +24,8 @@ footer {
 .contenedorFooter {
     background-color:black;
     height: 25%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
 
 }
 
@@ -40,7 +36,6 @@ footer {
 
 @media screen and (max-width:600px){
     .contenedorInicio {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
 }
