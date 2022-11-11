@@ -1,6 +1,11 @@
 .contenedorInicio {
     background-color:black;
 }
+.contenedorParrafo {
+    font-family: 'Dancing Script', cursive;
+    font-size: medium;
+    
+}
 
 .tituloInicio {
     text-align: center;

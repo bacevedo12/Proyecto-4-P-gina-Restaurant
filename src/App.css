@@ -14,7 +14,7 @@
 }
 
 .imagenLogo {
-  width: 150px;
+  width: 80px;
 
 }
 
@@ -55,4 +55,16 @@
 
 section{
   flex: 1;
+  background: #000519;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  color: #F5C517;
+
+}
+
+.menu{
+  background: #000519;
+  width: 100%;
 }
