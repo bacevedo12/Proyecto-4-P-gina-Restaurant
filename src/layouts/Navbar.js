@@ -9,7 +9,7 @@ import FooterRestaurant from "./Footer";
 const NavBarRestaurant = () => {
   return (
     <>
-    <div className="contenedor">
+    <div className="contenedor justify-content-between">
     
       <Navbar className="navBar" variant="dark" expand="lg">
         <Container>

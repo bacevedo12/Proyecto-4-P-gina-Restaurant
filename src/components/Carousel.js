@@ -1,7 +1,8 @@
 // import React from "react";
 // import  Carousel from 'react-bootstrap/Carousel';
 
-// function Carousel() {
+
+// const Carousel = () => {
 //     return (
 //         <Carousel fade>
 //           <Carousel.Item>

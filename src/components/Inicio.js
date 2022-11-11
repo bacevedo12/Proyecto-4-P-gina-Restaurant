@@ -1,6 +1,6 @@
 import React from "react";
 import "./Inicio.css";
-// import Carousel from "./Carousel.js";
+// import Carousel from "./components/Carousel.js";
 
 
 
