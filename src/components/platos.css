@@ -1,0 +1,24 @@
+.img_menu{
+    width:100%;
+    height: 150px;
+  }
+  .font_price{
+    color:#F5C517;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .titulo{
+    font-family: 'Dancing Script', cursive;
+    size: 15px;
+    color: #F5C517;
+  }
+
+  .desc{
+    font-family: 'Dancing Script', cursive;
+    font-size:large;
+    color: aliceblue;
+    
+  }
+.card{
+    background-color: #000a32;
+}

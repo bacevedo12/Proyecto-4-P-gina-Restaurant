@@ -22,7 +22,6 @@ function App() {
       <Route path='Reserva' element={<Reserva />}/>
       <Route path='Contacto' element={<Contacto />}/>
     
-
       <Route path='*' element={ <Navigate replace to="/"/>}/>
     </Route>
    </Routes>
