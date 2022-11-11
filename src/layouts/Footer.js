@@ -5,8 +5,8 @@ const FooterRestaurant = () => {
       <div>
             <footer className="text-white py-4">
                 <nav className="row justify-content-around align-items-center contenedorFooter"> 
-                    <div className="col-xs-12 col-lg-3 imagenLogo">
-                        <img src='./images/logo-restaurant.jpg'  />
+                    <div className="col-xs-12 col-lg-3">
+                    <img className="imagenLogo"alt="logo"src='../images/logo-restaurant.jpg' />
                     </div>
                     <div className='col-xs-12 col-lg-3'>
                         <h3>Dirección</h3>
