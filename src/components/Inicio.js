@@ -1,16 +1,17 @@
 import React from "react";
 import "./Inicio.css";
+// import Carousel from "./Carousel.js";
 
 
 
 const Inicio = () =>{
     return (
         <div className="contenedor">
-        <main className="d-flex flex-row justify-content-around contenedorInicio">
-            <div className="imagenInicio">
-                <img src='../images/imagenrestaurant.jpg'/> 
+        <main className="row align-items-center justify-content-around contenedorInicio">
+            <div className="col-xs-12 col-lg-6 mb-4 imagenInicio">
+                <img src='./images/imagenrestaurant.jpg' style={{ width: '500px' }} /> 
             </div>
-            <div className="mt-5 ms-5 me-5 contenedorParrafo">
+            <div className="col-xs-12 col-lg-6 contenedorParrafo">
                 <div className="tituloInicio">
                  <h1>PUERTO SIRENA RESTAURANT</h1>
                 </div>  
@@ -24,9 +25,9 @@ const Inicio = () =>{
             </div>  
         </main>
         <section className="d-flex flex-row">
-        <img className="col-4 col-md-4" src='../images/machas-parmesana.jpg'/> 
-        <img className="col-4 col-md-4" src='../images/ceviche.jpg'/>
-        <img className="col-4 col-md-4" src='../images/paila-marina.jpg'/>
+        <img className="col-4 col-md-4" src='./images/machas-parmesana.jpg'/> 
+        <img className="col-4 col-md-4" src='./images/ceviche.jpg'/>
+        <img className="col-4 col-md-4" src='./images/paila-marina.jpg'/>
         </section>
         </div>
        
