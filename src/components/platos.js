@@ -1,17 +1,26 @@
 import Card from 'react-bootstrap/Card';
+import React from "react";
 
-const platos = () =>{
+const Platos = ({items}) =>{
     return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Pescado a lo Pobre</Card.Title>
-        <Card.Text>
-          Pescado con papas fritas, huevo y cebolla caramelizada
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    )
-}
+      <div className="container row">
+        {items.map((items)=>{       
+        const {title, img, desc, price} = items;
+        return (
+            <Card className="m-3" style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={img} alt={title}  />
+              <Card.Body>
+                <Card.Title>{title}</Card.Title>
+                <Card.Text>
+                  {desc}
+                  ${price}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+        );
+      })}
+    </div>
+    );
+};
 
-export default platos
+export default Platos

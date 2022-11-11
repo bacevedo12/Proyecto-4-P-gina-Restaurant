@@ -1,14 +1,15 @@
 import React from "react";
 import "./Inicio.css";
+// import Carousel from "./Carousel.js";
 
 
 
 const Inicio = () =>{
     return (
         <div className="contenedor">
-        <main className="row align-items-center contenedorInicio">
+        <main className="row align-items-center justify-content-around contenedorInicio">
             <div className="col-xs-12 col-lg-6 mb-4 imagenInicio">
-                <img src='./imagenrestaurant.jpg' style={{ width: '500px' }} /> 
+                <img src='./images/imagenrestaurant.jpg' style={{ width: '500px' }} /> 
             </div>
             <div className="col-xs-12 col-lg-6 contenedorParrafo">
                 <div className="tituloInicio">
@@ -23,10 +24,13 @@ const Inicio = () =>{
                 </div>  
             </div>  
         </main>
-        <section className="d-flex flex-row">
-        <img className="col-4 col-md-4" src='./machas-parmesana.jpg'/> 
-        <img className="col-4 col-md-4" src='./ceviche.jpg'/>
-        <img className="col-4 col-md-4" src='./paila-marina.jpg'/>
+        <section className="seccionCarousel">
+            {/* <div>
+            <Carousel/>
+            </div> */}
+        <img className="col-4 col-md-4" src='./images/machas-parmesana.jpg'/> 
+        <img className="col-4 col-md-4" src='./images/ceviche.jpg'/>
+        <img className="col-4 col-md-4" src='./images/paila-marina.jpg'/>
         </section>
         </div>
        

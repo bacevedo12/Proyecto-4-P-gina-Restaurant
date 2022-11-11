@@ -16,8 +16,12 @@
     margin: 30px;
     font-size: large;
     color:aliceblue;
-
 }
+
+.seccionCarousel {
+    background-color: black;
+}
+
 footer {
     background-color: black;
 }
