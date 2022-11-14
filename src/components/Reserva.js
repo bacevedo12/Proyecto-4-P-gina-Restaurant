@@ -1,46 +1,73 @@
 import React, { useState } from "react";
 
 function FormularioReserva(){
-    const [nombre, setNombre] = useState("");
-    const [apellido, setApellido] = useState("");
-    const [email, setEmail] = useState("");
-    const [number, setNumber] = useState("");
-    const [fecha, setFecha] = useState("");
+    // const [nombre, setNombre] = useState("");
+    // const [apellido, setApellido] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [number, setNumber] = useState("");
+    // const [fecha, setFecha] = useState("");
 
-    const handleSubmit = (e) =>{
-        e.preventDefault();
-        alert("El formulario se ha enviado");
-    };
+    // const handleSubmit = (e) =>{
+    //     e.preventDefault();
+    //     alert("El formulario se ha enviado");
+    // };
+
+    const valorInicial = {
+        nombre:'',
+        apellido:'',
+        email:'',
+        numeroPersonas:'',
+        fecha:'',
+        hora:''
+    }
+
+    const [reserva, setReserva] = useState(valorInicial)
+
+    const capturarInputs = (e) => {
+        const {name, value} = e.target;
+        setReserva({...reserva, [name]:value})
+    }
+
+    const guardarDatos = async(e) => {
+      e.preventDefault();
+      console.log(reserva);
+      setReserva({...valorInicial})
+    }
 
 return(
     <section>
         <h2 className="text-white">Reserva tu mesa</h2>
         <br />
-        <form onSubmit={handleSubmit} className="text-white">
+        <form onSubmit={guardarDatos} className="text-white">
             <div>
             <label htmlFor="nombre" className="m-3">Nombre</label>
             <input type="text" id="nombre" name="nombre"
-            value={nombre} onChange={(e) => setNombre(e.target.value)}/>
+             onChange={capturarInputs} value={reserva.nombre} />
             </div>
             <div>
             <label htmlFor="apellido" className="m-3" >Apellido</label>
             <input type="text" id="apellido" name="apellido"
-            value={apellido} onChange={(e) => setApellido(e.target.value)}/>
+             onChange={capturarInputs} value={reserva.apellido}/>
             </div>
             <div>
             <label htmlFor="mail" className="m-3" >Email</label>
             <input type="email" id="email" name="email"
-            value={email} onChange={(e) => setEmail(e.target.value)}/>
+             onChange={capturarInputs} value={reserva.email}/>
             </div>
             <div>
             <label htmlFor="number" className="m-3" >Numero de personas</label>
-            <input type="number" id="number" name="number"
-            value={number} onChange={(e) => setNumber(e.target.value)}/>
+            <input type="number" id="number" name="numeroPersonas"
+             onChange={capturarInputs} value={reserva.numeroPersonas}/>
             </div>
             <div>
              <label htmlFor="fecha" className="m-3">Fecha</label>
-                <input type="date" id="fecha" name="fecha"
-                 value={fecha} onChange={(e) => setFecha(e.target.value)}/>
+             <input type="date" id="fecha" name="fecha"
+              onChange={capturarInputs} value={reserva.fecha}  />
+            </div>
+            <div>
+             <label htmlFor="hora" className="m-3">hora</label>
+             <input type="time" id="hora" name="hora" min="11:30" max="23:00" step="3600"
+              onChange={capturarInputs} value={reserva.hora}  />
             </div>
             <div>
             <button type="submit" className="btn btn-primary m-3" id="boton" name="boton" >Reservar </button>

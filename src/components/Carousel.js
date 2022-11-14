@@ -12,6 +12,12 @@ function ControlledCarousel() {
     <div className="carousel-item">
       <img src="../images/machas-parmesana.jpg" className="d-block w-50" alt="..."/>
     </div>
+    <div className="carousel-item">
+      <img src="../images/erizos.jpg" className="d-block w-50" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src="../images/platos/platos_fondo/camarones_al_pilpil.png" className="d-block w-50" alt="..."/>
+    </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
