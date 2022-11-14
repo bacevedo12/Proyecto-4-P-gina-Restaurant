@@ -21,7 +21,7 @@ const FooterRestaurant = () => {
                     </div>
                   
                   <div className='col-12 col-md-12 d-flex justify-content-center text-center'> 
-                        <p class="text-center text-muted">© 2022 by Barbara y Camila</p>
+                        <p class="text-center text-muted">© 2022 by Bárbara y Camila</p>
                   </div>
                 </nav>
 
