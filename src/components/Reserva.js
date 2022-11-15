@@ -1,17 +1,10 @@
 import React, { useState } from "react";
+import {getfirestore, collection, addDoc, getDocs, doc, deleteDoc, getDoc, setDoc, getFirestore} from 'firebase/firestore';
+import { db } from './FireBase.js';
+
 
 function FormularioReserva(){
-    // const [nombre, setNombre] = useState("");
-    // const [apellido, setApellido] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [number, setNumber] = useState("");
-    // const [fecha, setFecha] = useState("");
-
-    // const handleSubmit = (e) =>{
-    //     e.preventDefault();
-    //     alert("El formulario se ha enviado");
-    // };
-
+   
     const valorInicial = {
         nombre:'',
         apellido:'',
@@ -30,7 +23,14 @@ function FormularioReserva(){
 
     const guardarDatos = async(e) => {
       e.preventDefault();
-      console.log(reserva);
+    //   console.log(reserva);
+    try {
+        await addDoc(collection(db,'reservas'), {
+            ...reserva
+        })
+    } catch (error) {
+        console.log(error);
+    }
       setReserva({...valorInicial})
     }
 
