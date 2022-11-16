@@ -1,29 +1,33 @@
-.imagenReserva {
-     width: '50%';
-     height: '650px';
-}
 
 .reserva{
-    width: 40%;
+    
+    margin-left: 3rem;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
 }
 
 .tituloReserva{
-    color: aliceblue;
+    color: black;
 }
 
+.mainreserva {
+    background-image: url("../components/imagenes/foto.mesa.restaurant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    justify-content: start;
+    margin: 0 !important;
+}
 
-@media screen and (max-width:1000px){
-    .imagenReserva {
-        width: 60%;
-        margin-top: 30px;
-       
-    }
+@media screen and (max-width:800px){
+    .mainreserva{
+        justify-content: center;
     
-    .reserva {
-        width: 75%;
     }
-    
-   
+    .reserva{
+        width: 400px;
+        margin-left: 0;
 
-  
+    }
 }

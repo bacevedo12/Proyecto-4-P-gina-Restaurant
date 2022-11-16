@@ -10,7 +10,7 @@ const Platos = ({items}) =>{
         {items.map((items)=>{       
         const {title, img, desc, price} = items;
         return (
-            <Card className="col-xs-12 col-lg-3 m-3 bg-dark" style={{ width: '18rem' }} >
+            <Card className="col-xs-12 col-lg-3 m-3  bg-dark" style={{ width: '18rem' }} >
               <Card.Img className='img_menu' variant="top" src={img} alt={title}  />
               <Card.Body>
                 <Card.Title className='titulo'><h3>{title}</h3></Card.Title>

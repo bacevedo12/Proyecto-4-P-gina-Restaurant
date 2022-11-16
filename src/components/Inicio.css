@@ -10,18 +10,31 @@
     font-weight: bold;
     color:aliceblue
 }
+.Inicio{
+    background: rgba(0, 0, 0, 0.6);
+    margin: 5rem;
 
+}
 .parrafoInicio {
     text-align: justify;
     margin: 30px;
-    font-size: large;
     color:aliceblue;
 }
 
-.carousel-item {
-  
-    min-height: 500px;
-    /* margin-left: 250px; */
+.tamanoletra {
+    font-size:x-large;
+}
+
+.imagenInicio{
+    min-height: 400px;
+    background-image: url('../components/imagenes/foto.mesa.restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.carousel-item{
+    max-height: 500px;
 }
 .contenedorFooter {
     height: 25%;
@@ -34,10 +47,39 @@
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .contenedorInicio {
         display: none;
     }
+    .imag-responsive {
+        max-height: 300px !important;
+        /* margin-left: 250px; */
+    }
+
+    .carousel-item{
+        max-height: 400px;
+    }
     
+}
+
+@media screen and (max-width:500px){
+
+
+    .imag-responsive {
+        max-height: 200px !important;
+        /* margin-left: 250px; */
+    }
+
+    .carousel-item{
+        max-height: 300px;
+    }
+
+    .tamanoletra{
+        font-size: small;
+    }
+
+    .Inicio{
+        margin: 1rem;
     
+    }
 }
