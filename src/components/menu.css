@@ -1,0 +1,12 @@
+.menu{
+    min-height: 400px;
+    background-image: url('/src/components/imagenes/foto.mesa.restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+  }
+.menus{
+    
+    background-color: rgb(0,0,0,0.6);
+}
+

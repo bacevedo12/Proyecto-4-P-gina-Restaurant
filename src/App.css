@@ -76,6 +76,8 @@ h2{
   background-color:#F5C517;;
 }
 .menu{
-  background: #000519;
-  width: 100%;
+  min-height: 400px;
+  background-image: url('/src/components/imagenes/foto.mesa.restaurant.jpg');
+  background-size: cover;
+  background-position: center;
 }
