@@ -5,7 +5,7 @@ const menu = [
       category: 'Entradas Frías',
       price: 15000,
       img: '../images/platos/entradas_frias/erizos.png',
-      desc: `Erizos bañados en su salza, convinada con perejil y especias `,
+      desc: `Erizos bañados en su salsa, convinada con perejil y especias `,
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const menu = [
       category: 'Plato de Fondo',
       price: 15000,
       img: '../images/platos/platos_fondo/atun.png',
-      desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+      desc: `Atún cocinado en su punto con papas fritas `,
     },
     {
       id: 6,
@@ -78,7 +78,25 @@ const menu = [
         category: 'Postre',
         price: 4500,
         img: '../images/platos/postres/tiramisu.png',
-        desc: `Paila Marina con frutos del mar y pescado`,
+        desc: `Postre Tiramisu acompañado con helado`,
+      },
+
+      {
+        id: 11,
+        title: 'Panqueque de Platano',
+        category: 'Postre',
+        price: 4500,
+        img: '../images/platos/postres/panqueque_de_platano.png',
+        desc: `Panqueque de platanos dorados`,
+      },
+
+      {
+        id: 12,
+        title: 'Panna Cotta',
+        category: 'Postre',
+        price: 4500,
+        img: '../images/platos/postres/panna_cotta.png',
+        desc: `Panna cotta de chocolate`,
       },
   ];
   export default menu;
