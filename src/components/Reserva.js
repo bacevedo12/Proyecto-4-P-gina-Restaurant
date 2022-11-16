@@ -4,6 +4,7 @@ import "./Reserva.css";
 import { collection, addDoc} from 'firebase/firestore';
 
 import { db } from './FireBase.js';
+import Swal from 'sweetalert2';
 
 
 function FormularioReserva(){
@@ -31,20 +32,30 @@ function FormularioReserva(){
         await addDoc(collection(db,'reservas'), {
             ...reserva
         })
+        Swal.fire(
+            'Su reserva se ha enviado con exito!',
+            '',
+            'success'
+          )
     } catch (error) {
         console.log(error);
+        Swal.fire(
+            'Ups algo a fallado, intente nuevamente!',
+            '',
+            'warning'
+          )
     }
       setReserva({...valorInicial})
       
     }
 
 return(
-    <section className="contenedor">
-     <main className= "row align-items-center justify-content-center" >
-        <div className="col-xs-12 col-lg-6 border border-warning border-4 me-4 reserva">
+    <section >
+     <main className= "container-fluid row align-items-center mainreserva" >
+        <div className="col-lg-4 col-sm-6 border border-warning border-4 reserva ">
         <h2 className="tituloReserva mt-3" >Reserva tu mesa</h2>
         <br />
-        <form onSubmit={guardarDatos} className="text-white bg-light">
+        <form onSubmit={guardarDatos} className="text-white bg-light ">
             <div>
             <label htmlFor="nombre" className="m-2">Nombre</label><br/>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre"
@@ -80,10 +91,7 @@ return(
             </div>
         </form>
         </div>
-        <div className="col-xs-12 col-lg-6 mb-4">
-        <img className="imagenReserva w-100" alt="Restaurant"src='./images/foto.mesa.restaurant.jpg'/>
-        </div>
-        </main>
+    </main>
     </section>
 )
 }
