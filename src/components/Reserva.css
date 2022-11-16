@@ -1,0 +1,29 @@
+.imagenReserva {
+     width: '50%';
+     height: '650px';
+}
+
+.reserva{
+    width: 40%;
+}
+
+.tituloReserva{
+    color: aliceblue;
+}
+
+
+@media screen and (max-width:1000px){
+    .imagenReserva {
+        width: 60%;
+        margin-top: 30px;
+       
+    }
+    
+    .reserva {
+        width: 75%;
+    }
+    
+   
+
+  
+}

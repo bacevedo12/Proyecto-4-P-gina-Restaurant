@@ -18,10 +18,14 @@
     color:aliceblue;
 }
 
+.carousel-item {
+  
+    min-height: 500px;
+    /* margin-left: 250px; */
+}
 .contenedorFooter {
     height: 25%;
-    /* padding-top: 40px;
-    padding-bottom: 40px; */
+   
 
 }
 
@@ -29,13 +33,11 @@
     color: cadetblue;
 }
 
-.carousel-item {
-    width: 1000px;
-    height: 300px;
-}
-  
+
 @media screen and (max-width:600px){
     .contenedorInicio {
         display: none;
     }
+    
+    
 }

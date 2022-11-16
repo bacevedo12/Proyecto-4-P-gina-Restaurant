@@ -18,10 +18,6 @@
 
 }
 
-.carousel-item {
-  max-width: 200px;
-  max-height: 200px;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -69,6 +65,16 @@ h1{
 
 }
 
+h2{
+  font-family: 'Dancing Script', cursive;
+  color:black;
+  font-weight:bold ;
+  font-size: large;
+}
+
+.btn {
+  background-color:#F5C517;;
+}
 .menu{
   background: #000519;
   width: 100%;

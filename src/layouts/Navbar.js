@@ -18,7 +18,7 @@ const NavBarRestaurant = () => {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto fw-bold fs-4">
             <Nav.Link as={Link} to="/">Inicio</Nav.Link>
             <Nav.Link as={Link} to="/Menu">Menu</Nav.Link>
             <Nav.Link as={Link} to="/Reserva">Reserva</Nav.Link>
