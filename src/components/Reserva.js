@@ -4,6 +4,7 @@ import "./Reserva.css";
 import { collection, addDoc} from 'firebase/firestore';
 
 import { db } from './FireBase.js';
+import Swal from 'sweetalert2';
 
 
 function FormularioReserva(){
@@ -31,8 +32,18 @@ function FormularioReserva(){
         await addDoc(collection(db,'reservas'), {
             ...reserva
         })
+        Swal.fire(
+            'Su reserva se ha enviado con exito!',
+            '',
+            'success'
+          )
     } catch (error) {
         console.log(error);
+        Swal.fire(
+            'Ups algo a fallado, intente nuevamente!',
+            '',
+            'warning'
+          )
     }
       setReserva({...valorInicial})
       
