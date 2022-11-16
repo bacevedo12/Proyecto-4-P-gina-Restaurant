@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-<<<<<<< HEAD
-import {collection, addDoc} from 'firebase/firestore';
-=======
+
 import "./Reserva.css";
-import {getfirestore, collection, addDoc, getDocs, doc, deleteDoc, getDoc, setDoc, getFirestore} from 'firebase/firestore';
->>>>>>> 2a2b56a27954ccb09b23e1586af5bde006251ed1
+import { collection, addDoc} from 'firebase/firestore';
+
 import { db } from './FireBase.js';
 
 
