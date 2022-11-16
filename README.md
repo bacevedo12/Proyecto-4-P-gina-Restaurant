@@ -1,3 +1,19 @@
+# PROYECTO 4: Proyecto Restaurant (Puerto Sirena)
+![image]../images/logo-restaurant.jpg
+## Indicadores Económicos.
+
+Página web para un restaurant familiar de marisquería tradicional de pescados y mariscos ubicado en las costas de la región de Bío-Bío. 
+
+***
+
+## Ingreso a la pagina
+
+Podrás acceder a la pagina mediante el siguiente link: xxxx
+
+## Contrucción de la pagina
+
+La pagina fue construida con React, html, css, Javascript, Boostrap con base de datos Firestore.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
