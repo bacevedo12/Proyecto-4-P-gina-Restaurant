@@ -7,11 +7,11 @@ const Inicio = () =>{
         <div className="contenedor">
         <main className="row align-items-center justify-content-around contenedorInicio">
             <div className="col-xs-12 col-lg-6 mb-4 imagenInicio">
-                <img alt="Restaurant"src='./images/imagenrestaurant.jpg' style={{ width: '500px' }} /> 
+                <img alt="Restaurant"src='./images/imagenrestaurant.jpg' style={{ width: '80%' }} /> 
             </div>
             <div className="col-xs-12 col-lg-6 contenedorParrafo">
                 <div className="tituloInicio">
-                 <h1>PUERTO SIRENA RESTAURANT</h1>
+                 <h1>Puerto Sirena Restaurant</h1>
                 </div>  
                 <div className="parrafoInicio">
                     <h4> Somos un restaurant familiar de marisquería tradicional de pescados y mariscos 
