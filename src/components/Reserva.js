@@ -28,27 +28,39 @@ function FormularioReserva(){
     const guardarDatos = async(e) => {
       e.preventDefault();
     //   console.log(reserva);
-    try {
-        await addDoc(collection(db,'reservas'), {
-            ...reserva
-        })
-        Swal.fire(
-            'Su reserva se ha enviado con exito!',
-            '',
-            'success'
-          )
-    } catch (error) {
-        console.log(error);
+    if (reserva.nombre == '' || reserva.apellido == '' || reserva.email == '' || reserva.numeroPersonas == '' || reserva.fecha == '' || reserva.hora == '' ) {
         Swal.fire(
             'Ups algo a fallado, intente nuevamente!',
             '',
             'warning'
-          )
+          );
+    } else {
+        try {
+            await addDoc(collection(db,'reservas'), {
+                ...reserva
+            })
+            Swal.fire(
+                'Su reserva se ha enviado con exito!',
+                '',
+                'success'
+              )
+        } catch (error) {
+            console.log(error);
+            Swal.fire(
+                'Ups algo a fallado, intente nuevamente!',
+                '',
+                'warning'
+              )
+        }
+         
     }
-      setReserva({...valorInicial})
-      
-    }
+    setReserva({...valorInicial})
+}
 
+   
+    
+   
+     
 return(
     <section >
      <main className= "container-fluid row align-items-center mainreserva" >

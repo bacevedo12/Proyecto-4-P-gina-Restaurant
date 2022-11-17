@@ -7,7 +7,7 @@ const Inicio = () =>{
         <div className="contenedor">
         <main className="row m-3 p-0">
             <div className="imagenInicio">
-                <div className="Inicio">
+                <div className="Inicio p-3">
                 <div className="tituloInicio">
                  <h1>Puerto Sirena Restaurant</h1>
                 </div>  
