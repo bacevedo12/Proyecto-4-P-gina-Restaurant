@@ -1,5 +1,5 @@
 # PROYECTO 4: Proyecto Restaurant (Puerto Sirena)
-![image]../images/logo-restaurant.jpg
+![image] ./public/images/logo-restaurant.jpg
 ## Indicadores Económicos.
 
 Página web para un restaurant familiar de marisquería tradicional de pescados y mariscos ubicado en las costas de la región de Bío-Bío. 
