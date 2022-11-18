@@ -1,0 +1,22 @@
+
+.seccionContacto{
+    background-color: #000519;
+}
+
+.tituloContacto{
+    color: aliceblue
+}
+
+.mensaje{
+    width: 300px !important;
+}
+
+
+@media screen and (max-width:800px){
+
+    .contacto{
+        width: 400px;
+        margin-left: 0;
+
+    }
+}
