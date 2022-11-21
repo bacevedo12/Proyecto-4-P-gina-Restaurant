@@ -22,7 +22,9 @@ const NavBarRestaurant = () => {
             <Nav.Link as={Link} to="/">Inicio</Nav.Link>
             <Nav.Link as={Link} to="/Menu">Menu</Nav.Link>
             <Nav.Link as={Link} to="/Reserva">Reserva</Nav.Link>
+            <Nav.Link as={Link} to="/Opiniones">Opiniones</Nav.Link>
             <Nav.Link as={Link} to="/Contacto">Contacto</Nav.Link>
+           
           </Nav>
           </Navbar.Collapse>
         </Container>
