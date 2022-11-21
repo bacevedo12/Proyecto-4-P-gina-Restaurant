@@ -3,7 +3,7 @@ import { collection, addDoc, getDocs} from 'firebase/firestore';
 import { db } from './FireBase.js';
 import Swal from 'sweetalert2';
 import "./Contacto.css";
-// import { async } from "@firebase/util";
+//import { async } from "@firebase/util";
 
 function Opiniones(){
    
@@ -13,7 +13,7 @@ function Opiniones(){
     }
 
     const [opinion, setOpinion] = useState(valorInicial)
-    const [lista, setLista] = useState({})
+    const [lista, setLista] = useState([])
 
     const capturarInputs = (e) => {
         const {name, value} = e.target;
@@ -53,13 +53,13 @@ function Opiniones(){
 }
 
 // funcion para renderizar opiniones 
-
-useEffect(() => {
-   const getLista = async()=>{
+const getLista = async()=>{
     try{
      const querySnapshot = await getDocs(collection(db, 'opiniones'))
      const docs = []
+     
      querySnapshot.forEach((doc) => {
+        
         docs.push({...doc.data(), id:doc.id})
      })
     setLista(docs)
@@ -68,16 +68,19 @@ useEffect(() => {
         console.log(error)
     }
    }
+useEffect(() => {
+   
    getLista()
+   
 },[lista])
 
 
 return (
         <section className="row seccionContacto" >
 
-        <div className="col contacto">
+          <div className="col contacto">
             <h2 className="tituloContacto mt-3" >Dejanos tu opinion de nuestro restaurant</h2>
-            <br />
+            <br /> 
             <form  onSubmit={guardarDatos} className="text-white  ">
                 <div>
                 <br/>
@@ -112,7 +115,7 @@ return (
                 </div>
             </div>
 
-        </div>
+        </div>  
     </section>
 )}
 
