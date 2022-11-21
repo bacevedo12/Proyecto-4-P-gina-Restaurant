@@ -11,8 +11,8 @@ const FooterRestaurant = () => {
                     <div className='col-xs-12 col-lg-3'>
                         <h3>Dirección</h3>
                         <p>Av.Costanera 4358, Tomé </p>
-                        <button className="btnicono me-4"><i class="fa-brands fa-square-instagram"></i></button>
-                        <button className="btnicono"><i class="fa-brands fa-facebook"></i></button>
+                        <button className="btnicono me-4"><i className="fa-brands fa-square-instagram"></i></button>
+                        <button className="btnicono"><i className="fa-brands fa-facebook"></i></button>
                     </div>
                     <div className='col-xs-12 col-lg-3'>
                         <h3>Contacto</h3>
@@ -21,7 +21,7 @@ const FooterRestaurant = () => {
                     </div>
                   
                   <div className='col-12 col-md-12 d-flex justify-content-center text-center'> 
-                        <p class="text-center text-muted">© 2022 by Bárbara y Camila</p>
+                        <p className="text-center text-muted">© 2022 by Bárbara y Camila</p>
                   </div>
                 </nav>
 

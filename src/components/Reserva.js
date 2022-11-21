@@ -28,7 +28,7 @@ function FormularioReserva(){
     const guardarDatos = async(e) => {
       e.preventDefault();
     //   console.log(reserva);
-    if (reserva.nombre == '' || reserva.apellido == '' || reserva.email == '' || reserva.numeroPersonas == '' || reserva.fecha == '' || reserva.hora == '' ) {
+    if (reserva.nombre === '' || reserva.apellido === '' || reserva.email === '' || reserva.numeroPersonas === '' || reserva.fecha === '' || reserva.hora === '' ) {
         Swal.fire(
             'Ups algo a fallado, intente nuevamente!',
             '',

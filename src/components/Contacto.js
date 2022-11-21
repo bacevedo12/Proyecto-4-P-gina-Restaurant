@@ -24,7 +24,7 @@ function FormularioContacto(){
     const guardarDatos = async(e) => {
       e.preventDefault();
            console.log(contacto);
-    if (contacto.nombre == '' || contacto.apellido == '' || contacto.email == '' || contacto.celular == '' || contacto.mensaje == '') {
+    if (contacto.nombre === '' || contacto.apellido === '' || contacto.email === '' || contacto.celular === '' || contacto.mensaje === '') {
         Swal.fire(
             'Ups algo a fallado, intente nuevamente!',
             '',
