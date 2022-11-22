@@ -1,9 +1,11 @@
 .contacto{
     border: yellow;
+   
 }
 
 .seccionContacto{
     background-color: #000519;
+    justify-content: center;
 }
 
 .tituloContacto{
