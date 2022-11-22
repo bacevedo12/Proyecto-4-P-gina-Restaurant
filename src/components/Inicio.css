@@ -13,6 +13,7 @@
 .Inicio{
     background: rgba(0, 0, 0, 0.6);
     margin: 5rem;
+    border-radius: 20px;
 
 }
 .parrafoInicio {
@@ -35,6 +36,7 @@
 
 .carousel-item{
     max-height: 500px;
+    
 }
 .contenedorFooter {
     height: 25%;

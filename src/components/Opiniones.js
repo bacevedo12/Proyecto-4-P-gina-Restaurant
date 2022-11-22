@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { collection, addDoc, getDocs} from 'firebase/firestore';
 import { db } from './FireBase.js';
 import Swal from 'sweetalert2';
-import "./Contacto.css";
 import "./Opiniones.css";
 //import { async } from "@firebase/util";
 
@@ -77,7 +76,7 @@ useEffect(() => {
 
 
 return (
-        <section className="row seccionContacto" >
+        <section className="row seccionOpiniones" >
 
           <div className="col contacto">
             <h2 className="tituloContacto mt-3" >Dejanos tu opinion de nuestro restaurant</h2>
@@ -100,9 +99,9 @@ return (
             </form>
         </div>
         <div>
-            <h2 className="text-white">Opiniones</h2>
+            <h2 className="text-black">Opiniones</h2>
             <div className="conteiner card contenedorOpiniones">
-                <div className="card-body ">
+                <div className="card-body contenedor2 ">
                     {
                         lista.map(opinion => (
                            <div className="opiniones " key={opinion.id}>

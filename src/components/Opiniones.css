@@ -1,13 +1,24 @@
+.seccionOpiniones{
+    
+    background-image: url("../components/imagenes/foto.mesa.restaurant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    justify-content: start;
+    margin: 0 !important;
+
+}
 .opiniones {
     border-radius: 20px;
     margin: 30px;
     background-color: #000519;
-    color: white;
+    color: rgb(249, 248, 248);
 }
 
 .contenedorOpiniones {
-    border-radius: 20px !important;
-    background-color: aliceblue;   
+    border-radius: 20px !important; 
     margin: 30px;
+    background-color: #fdfdfe78 !important;
 }
 
