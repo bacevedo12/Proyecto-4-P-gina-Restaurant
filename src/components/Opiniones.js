@@ -3,6 +3,7 @@ import { collection, addDoc, getDocs} from 'firebase/firestore';
 import { db } from './FireBase.js';
 import Swal from 'sweetalert2';
 import "./Contacto.css";
+import "./Opiniones.css";
 //import { async } from "@firebase/util";
 
 function Opiniones(){
@@ -100,11 +101,11 @@ return (
         </div>
         <div>
             <h2 className="text-white">Opiniones</h2>
-            <div className="conteiner card">
-                <div className="card-body">
+            <div className="conteiner card contenedorOpiniones">
+                <div className="card-body ">
                     {
                         lista.map(opinion => (
-                           <div key={opinion.id}>
+                           <div className="opiniones " key={opinion.id}>
                             <p>{opinion.nombre}:</p>
                             <p>{opinion.mensaje}</p>
                            </div>

@@ -66,7 +66,7 @@ const menu = [
     {
       id: 9,
       title: 'Paila Marina',
-      category: 'Platos de Fondo',
+      category: 'Plato de Fondo',
       price: "$13.000",
       img: '../images/platos/platos_fondo/paila_marina.png',
       desc: `Paila Marina con frutos del mar y pescado`,
