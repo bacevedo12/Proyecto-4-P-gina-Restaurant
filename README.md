@@ -1,6 +1,6 @@
 # <img src= "https://user-images.githubusercontent.com/108841536/202729706-a3fd696c-e714-462e-a28d-af8fbf340dfe.jpg" width=50/> PROYECTO 4: Proyecto Restaurant (Puerto Sirena)
 
-## Indicadores Económicos.
+## Restaurant.
 
 Página web para un restaurant familiar de marisquería tradicional de pescados y mariscos ubicado en las costas de la región de Bío-Bío. 
 
@@ -8,7 +8,7 @@ Página web para un restaurant familiar de marisquería tradicional de pescados 
 
 ## Ingreso a la pagina
 
-Podrás acceder a la pagina mediante el siguiente link: xxxx
+Podrás acceder a la pagina mediante el siguiente link:(https://bacevedo12.github.io/Proyecto-4-P-gina-Restaurant/)
 
 ## Contrucción de la pagina
 
