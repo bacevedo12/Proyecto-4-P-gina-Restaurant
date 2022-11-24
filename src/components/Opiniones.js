@@ -101,7 +101,7 @@ return (
         <div>
             <h2 className="text-black mt-5">Opiniones</h2>
             <div className="conteiner card contenedorOpiniones">
-                <div className="card-body ">
+                <div className="card-body contenedor2 ">
                     {
                         lista.map(opinion => (
                            <div className="opiniones " key={opinion.id}>
