@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { collection, addDoc, getDocs} from 'firebase/firestore';
 import { db } from './FireBase.js';
 import Swal from 'sweetalert2';
+// import "./Contacto.css";
 import "./Opiniones.css";
 //import { async } from "@firebase/util";
 
@@ -76,15 +77,15 @@ useEffect(() => {
 
 
 return (
-        <section className="row seccionOpiniones" >
+        <section className="row seccionOpinion" >
 
           <div className="col contacto col-lg-4 col-sm-6 border border-warning border-5 mt-5">
-            <h2 className="text-black mt-3" ><b>Dejanos tu opinion de nuestro restaurant</b></h2>
+            <h2 className="tituloContacto text-white mt-3" >Dejanos tu opinion de nuestro restaurant</h2>
             <br /> 
-            <form  onSubmit={guardarDatos} className="text-white bg-light mb-5 formularioOpiniones ">
+            <form  onSubmit={guardarDatos} className="text-white bg-light mb-5 ">
                 <div>
                 <br/>
-                <input className="nombre" type="text" id="nombre" name="nombre" placeholder="Nombre"
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre"
                 onChange={capturarInputs} value={opinion.nombre} />
                 </div>
                 <div>
@@ -99,7 +100,7 @@ return (
             </form>
         </div>
         <div>
-            <h2 className="text-black mt-5">Opiniones</h2>
+            <h2 className="text-white mt-5">Opiniones</h2>
             <div className="conteiner card contenedorOpiniones">
                 <div className="card-body contenedor2 ">
                     {

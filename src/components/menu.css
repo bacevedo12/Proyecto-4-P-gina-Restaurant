@@ -1,6 +1,6 @@
 .menu{
     min-height: 400px;
-    background-image: url('/src/components/imagenes/foto.mesa.restaurant.jpg');
+    /* background-image: url('/src/components/imagenes/foto.mesa.restaurant.jpg'); */
 
     background-size: cover;
     background-position: center;

@@ -4,14 +4,8 @@
 }
 
 .seccionContacto{
-    background-image: url("../components/imagenes/foto.mesa.restaurant.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+    background-color: #000519;
     justify-content: center;
-    margin: 0 !important;
-
 }
 
 .tituloContacto{
@@ -30,16 +24,4 @@
         margin-left: 0;
 
     }
-}
-
-@media screen and (max-width:600px){
-     .contacto{
-        width: 200px;
-     }
-
-     .mensaje {
-        max-width: 60%;
-     }
-
-
 }
