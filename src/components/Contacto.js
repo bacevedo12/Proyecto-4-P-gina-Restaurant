@@ -58,35 +58,35 @@ function FormularioContacto(){
    
      
 return(
-    <section className="seccionContacto" >
+    <section className="row seccionContacto" >
 
-        <div className="col contacto">
-            <h2 className="tituloContacto mt-3" >¿Tienes consultas?, envíanos un mensaje</h2>
+        <div className="contacto col-lg-4 col-sm-6 border border-warning border-5 mt-5 mb-5">
+            <h2 className="tituloContacto mt-5 text-black" >¿Tienes consultas?, envíanos un mensaje</h2>
             <br />
-            <form onSubmit={guardarDatos} className="text-white  ">
+            <form onSubmit={guardarDatos} className="text-white m-4 bg-light formularioContacto">
                 <div>
                 <br/>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre"
+                <input className="mensaje" type="text" id="nombre" name="nombre" placeholder="Nombre"
                 onChange={capturarInputs} value={contacto.nombre} />
                 </div>
                 <div>
                 <br/>
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido"
+                <input className="mensaje" type="text" id="apellido" name="apellido" placeholder="Apellido"
                 onChange={capturarInputs} value={contacto.apellido}/>
                 </div>
                 <div>
                 <br/>
-                <input type="email" id="email" name="email" placeholder="Mail"
+                <input className="mensaje" type="email" id="email" name="email" placeholder="Mail"
                 onChange={capturarInputs} value={contacto.email}/>
                 </div>
                 <div>
                 <br/>
-                <input type="text" id="celular" name="celular" placeholder="Celular (+569)"
+                <input className="mensaje" type="text" id="celular" name="celular" placeholder="Celular (+569)"
                 onChange={capturarInputs} value={contacto.celular}/>
                 </div>
                 <div>
                 <br/>
-                <textarea className=" mensaje" type="text" id="mensaje" name="mensaje" placeholder="Escribenos tu mensaje"
+                <textarea className="mensaje" type="text" id="mensaje" name="mensaje" placeholder="Escribenos tu mensaje"
                 onChange={capturarInputs} value={contacto.mensaje}  />
                 </div>
 

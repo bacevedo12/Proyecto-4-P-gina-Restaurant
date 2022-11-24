@@ -64,10 +64,10 @@ function FormularioReserva(){
 return(
     <section >
      <main className= "container-fluid row align-items-center mainreserva" >
-        <div className="col-lg-4 col-sm-6 border border-warning border-4 reserva ">
+        <div className="col-lg-4 col-sm-6 border border-warning border-5 reserva ">
         <h2 className="tituloReserva mt-3" >Reserva tu mesa</h2>
         <br />
-        <form onSubmit={guardarDatos} className="text-white bg-light ">
+        <form onSubmit={guardarDatos} className="text-white bg-light mb-4 ">
             <div>
             <label htmlFor="nombre" className="m-2">Nombre</label><br/>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre"

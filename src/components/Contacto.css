@@ -1,14 +1,17 @@
+.contacto{
+    border: yellow;
+   
+}
 
 .seccionContacto{
-    
-        background-image: url("../components/imagenes/foto.mesa.restaurant.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center center;
-        background-size: cover;
-        justify-content: start;
-        margin: 0 !important;
-    
+    background-image: url("../components/imagenes/foto.mesa.restaurant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    margin: 0 !important;
+
 }
 
 .tituloContacto{
@@ -27,4 +30,16 @@
         margin-left: 0;
 
     }
+}
+
+@media screen and (max-width:600px){
+     .contacto{
+        width: 200px;
+     }
+
+     .mensaje {
+        max-width: 60%;
+     }
+
+
 }

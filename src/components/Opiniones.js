@@ -78,13 +78,13 @@ useEffect(() => {
 return (
         <section className="row seccionOpiniones" >
 
-          <div className="col contacto">
-            <h2 className="tituloContacto mt-3" >Dejanos tu opinion de nuestro restaurant</h2>
+          <div className="col contacto col-lg-4 col-sm-6 border border-warning border-5 mt-5">
+            <h2 className="text-black mt-3" ><b>Dejanos tu opinion de nuestro restaurant</b></h2>
             <br /> 
-            <form  onSubmit={guardarDatos} className="text-white  ">
+            <form  onSubmit={guardarDatos} className="text-white bg-light mb-5 formularioOpiniones ">
                 <div>
                 <br/>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre"
+                <input className="nombre" type="text" id="nombre" name="nombre" placeholder="Nombre"
                 onChange={capturarInputs} value={opinion.nombre} />
                 </div>
                 <div>
@@ -99,7 +99,7 @@ return (
             </form>
         </div>
         <div>
-            <h2 className="text-black">Opiniones</h2>
+            <h2 className="text-black mt-5">Opiniones</h2>
             <div className="conteiner card contenedorOpiniones">
                 <div className="card-body contenedor2 ">
                     {
