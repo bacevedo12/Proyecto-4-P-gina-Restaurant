@@ -4,7 +4,7 @@ function ControlledCarousel() {
 <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner justify-content-center ">
     <div className="carousel-item active">
-      <img src="../images/ceviche.jpg" className= "imag-responsive center-block" alt="..."/>
+      <img src="../components/imagenes/ceviche.jpg" className= "imag-responsive center-block" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src="../images/paila-marina.jpg" className="imag-responsive center-block" alt="..."/>
