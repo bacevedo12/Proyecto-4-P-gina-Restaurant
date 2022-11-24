@@ -2,7 +2,7 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Outlet, Link } from 'react-router-dom';
 import FooterRestaurant from "./Footer";
-
+import logo from "../components/imagenes/logo-restaurant.jpg"
 
 
 
@@ -14,7 +14,7 @@ const NavBarRestaurant = () => {
       <Navbar className="navBar" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand as={Link} to="/" >
-             <img alt="logo"src='./images/logo-restaurant.jpg' className="imagenLogo"/>
+             <img alt="logo"src={logo} className="imagenLogo"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

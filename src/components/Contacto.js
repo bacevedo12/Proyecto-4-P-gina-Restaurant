@@ -58,10 +58,10 @@ function FormularioContacto(){
    
      
 return(
-    <section className="seccionContacto justify-content-center" >
+    <section className="row seccionContacto" >
 
         <div className="contacto col-lg-4 col-sm-6 border border-warning border-5 mt-5 mb-5">
-            <h2 className="tituloContacto mt-5" >¿Tienes consultas?, envíanos un mensaje</h2>
+            <h2 className="tituloContacto text-black mt-5" >¿Tienes consultas?, envíanos un mensaje</h2>
             <br />
             <form onSubmit={guardarDatos} className="text-white m-4 bg-light">
                 <div>

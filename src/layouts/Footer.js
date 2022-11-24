@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../components/imagenes/logo-restaurant.jpg'
 
 const FooterRestaurant = () => {
     return (
@@ -6,7 +7,7 @@ const FooterRestaurant = () => {
             <footer className="text-white py-4">
                 <nav className="row justify-content-around align-items-center contenedorFooter"> 
                     <div className="col-xs-12 col-lg-3">
-                    <img className="imagenLogo"alt="logo"src='../images/logo-restaurant.jpg' />
+                    <img className="imagenLogo"alt="logo"src={logo} />
                     </div>
                     <div className='col-xs-12 col-lg-3'>
                         <h3>Dirección</h3>

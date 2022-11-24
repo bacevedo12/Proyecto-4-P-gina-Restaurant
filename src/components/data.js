@@ -1,10 +1,23 @@
+import erizos from '../components/imagenes/erizos.jpg'
+import pailaMarina from '../components/imagenes/paila-marina.jpg'
+import machaParmesana from '../components/imagenes/machas.parmesana.jpg'
+import chupeJaiba from '../components/imagenes/chupe.jaiba.jpg'
+import locos from '../components/imagenes/locos.mayo.jpg'
+import camaronesPilpil from '../components/imagenes/camarones_al_pilpil.png'
+import mixMariscos from '../components/imagenes/mix_de_mariscos.png'
+import atun from '../components/imagenes/atun.png'
+import pailaPilpil from '../components/imagenes/paila_al_pilpil.png'
+import tiramisu from '../components/imagenes/tiramisu.png'
+import panna_cotta from '../components/imagenes/panna_cotta.png'
+import panquequePlatano from '../components/imagenes/panqueque_de_platano.png'
+
 const menu = [
     {
       id: 1,
       title: 'Erizos',
       category: 'Entradas Frías',
       price: "$15.000",
-      img: '../images/platos/entradas_frias/erizos.png',
+      img: erizos,
       desc: `Erizos bañados en su salsa, convinada con perejil y especias `,
     },
     {
@@ -12,7 +25,7 @@ const menu = [
       title: 'Locos',
       category: 'Entradas Frías',
       price: "$16.000",
-      img: '../images/platos/entradas_frias/locos.png',
+      img: locos,
       desc: `Locos Frescos con diferentes salsas `,
     },
     {
@@ -20,7 +33,7 @@ const menu = [
       title: 'Mix de Mariscos',
       category: 'Entradas Frías',
       price: "$13.500",
-      img: '../images/platos/entradas_frias/mix_de_mariscos.png',
+      img: mixMariscos,
       desc: `5 mariscos marinados con salsa de hierbas, mayonesa de la casa y pebre  `,
     },
     {
@@ -28,7 +41,7 @@ const menu = [
       title: 'Chupe de Jaiba',
       category: 'Plato de Fondo',
       price: "$14.000",
-      img: '../images/platos/platos_fondo/chupe_de_jaiba.png',
+      img: chupeJaiba,
       desc: `Chupe de jaiba con queso parmesano `,
     },
     {
@@ -36,7 +49,7 @@ const menu = [
       title: 'Atún con Papas',
       category: 'Plato de Fondo',
       price: "$15.000",
-      img: '../images/platos/platos_fondo/atun.png',
+      img: atun,
       desc: `Atún cocinado en su punto con papas fritas `,
     },
     {
@@ -44,7 +57,7 @@ const menu = [
       title: 'Camarones al Pil Pil',
       category: 'Plato de Fondo',
       price: "$13.000",
-      img: '../images/platos/platos_fondo/camarones_al_pilpil.png',
+      img: camaronesPilpil,
       desc: `Camarones al pil pil con crema y cacho de cabra`,
     },
     {
@@ -52,7 +65,7 @@ const menu = [
       title: 'Machas a la Parmesana',
       category: 'Plato de Fondo',
       price: "$15.000",
-      img: '../images/platos/platos_fondo/machas_a_la_parmesana.png',
+      img: machaParmesana,
       desc: `Machas con queso parmesano cocidas en vino blanco`,
     },
     {
@@ -60,7 +73,7 @@ const menu = [
       title: 'Mix de Mariscos al Pil Pil',
       category: 'Plato de Fondo',
       price: "$14.000",
-      img: '../images/platos/platos_fondo/paila_al_pilpil.png',
+      img: pailaPilpil,
       desc: `Mix de sabores marinos al pil pil`,
     },
     {
@@ -68,7 +81,7 @@ const menu = [
       title: 'Paila Marina',
       category: 'Plato de Fondo',
       price: "$13.000",
-      img: '../images/platos/platos_fondo/paila_marina.png',
+      img: pailaMarina,
       desc: `Paila Marina con frutos del mar y pescado`,
     },
 
@@ -77,7 +90,7 @@ const menu = [
         title: 'Tiramisu',
         category: 'Postre',
         price: "$4.500",
-        img: '../images/platos/postres/tiramisu.png',
+        img: tiramisu,
         desc: `Postre Tiramisu acompañado con helado`,
       },
 
@@ -86,7 +99,7 @@ const menu = [
         title: 'Panqueque de Platano',
         category: 'Postre',
         price: "$4.500",
-        img: '../images/platos/postres/panqueque_de_platano.png',
+        img: panquequePlatano,
         desc: `Panqueque de platanos dorados`,
       },
 
@@ -95,7 +108,7 @@ const menu = [
         title: 'Panna Cotta',
         category: 'Postre',
         price: "$4.500",
-        img: '../images/platos/postres/panna_cotta.png',
+        img: panna_cotta,
         desc: `Panna cotta de chocolate`,
       },
   ];

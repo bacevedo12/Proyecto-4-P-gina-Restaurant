@@ -10,7 +10,7 @@ const platoPostre = menu.filter((element) => element.category === "Postre");
 const Menu= () =>{
     return (
     <div className='menu'>
-        <h1 className='menus'>Menu</h1>
+        <h1 className='text-black'>Menu</h1>
         <hr></hr>
             <h1 className='menus'>Entradas Frías</h1>
                 <div className='d-flex justify-content-center'>            
